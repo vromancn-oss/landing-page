@@ -11,18 +11,24 @@ body {
     padding-right: 50px;
     justify-content: space-between;
     flex-direction: column;
-    gap: 20px;
 }
 
-.header2 {
-    margin: 25px;
-    align-items: space-between;
+.Header1 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.Header2 {
     flex-direction: column;
 }
 
 .links {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex: 2;
 }
 
 a {
