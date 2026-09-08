@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(123, 123, 155);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header2 {
+    margin: 25px;
+    align-items: space-between;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
