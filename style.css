@@ -4,6 +4,7 @@ body {
     align-items: stretch;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -20,13 +21,15 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
     flex: 2;
     list-style-type: none;
 }
@@ -99,6 +102,7 @@ img {
     border: 5px solid rgb(86, 98, 179);
     width: 75%;
     border-radius: 6px;
+    max-height: 500px;
 }
 
 ul {
@@ -122,3 +126,25 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.quote {
+    font-style: italic;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    flex-wrap: wrap;
+}
+figcaption {
+    margin-left: 500px;
+    font-weight: 900;
+}
+
