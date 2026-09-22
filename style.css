@@ -156,15 +156,10 @@ figcaption {
     font-weight: 900;
 }
 
-section {
-    min-height: 250px;
-    flex: 1;
-}
-
 .cta {
     color: white;
     border: #3882F6;
-    background-color: blue;
+    background-color: #3267bb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,4 +170,11 @@ section {
     padding: 70px;
     border-radius: 10px;
     font-size: 25px;
+}
+
+.closing {
+    background-color: rgb(76, 76, 93);
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
